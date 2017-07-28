@@ -1,0 +1,32 @@
+﻿<div class="modal-body row">
+    <div class="col-md-6">
+            <div class="form-group">
+                <label for="toolProvider">Tool Provider</label>
+                <select aria-label="" aria-invalid="false" class="data-entry-restriction-alt form-control" ng-model="vm.selectedReason">
+                    <option value="Tool Provider 1">Tool Provider 1</option>
+                    <option value="Tool Provider 2">Tool Provider 2</option>
+                    <option value="Tool Provider 3">Tool Provider 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">User Provision File</label>
+                <input type="file" ngf-select="" ng-model="picFile" name="file"  required="" class="ng-valid-max-height ng-valid-min-height ng-valid-max-width ng-valid-min-width ng-valid-dimensions ng-valid-ratio ng-valid-max-ratio ng-valid-min-ratio ng-valid-max-duration ng-valid-min-duration ng-valid-duration ng-valid-validate-async-fn ng-dirty ng-valid ng-valid-required">
+            </div>
+            <button type="button" class="btn btn-primary" ng-click="onclick(picFile, $event)">Upload</button>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Instructions</div>
+                <div class="panel-body">
+                    <ul class="">
+                        <li class="">Cras justo odio</li>
+                        <li class="">Dapibus ac facilisis in</li>
+                        <li class="">Morbi leo risus</li>
+                        <li class="">Porta ac consectetur ac</li>
+                        <li class="">Vestibulum at eros</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
